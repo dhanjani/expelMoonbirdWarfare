@@ -23,6 +23,9 @@ You can use this code in many different ways. Here's one way using blocknative.c
       { "contractCall.params.tokenId": "1" }
       { "status": "pending" }
       
+      NOTE:If the EXPULSION_ROLE admin uses Flashbots for ex, you won't see the pending transaction. In that case, use "confirmed". 
+            Not as quick, but does the job.
+      
 7. Configure your blocknative subcription's webhook to be the address you noted down in 1. and append "/expel" to it.
 
 Should be good to go. 
