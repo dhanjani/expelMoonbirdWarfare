@@ -5,7 +5,7 @@ The MoonBirds contract allows admins with the EXPULSION_ROLE to expel your neste
 it and also put it up for sale.
 
 Problem is, the expel mechanism doesn't have a timeout and backoff period, like for example your mobile phone does 
-when you incorrectly input the wrong passcode.
+when you incorrectly input the wrong passcode more than once.
 
 You can use this code in many different ways. Here's one way using blocknative.com:
 
