@@ -13,7 +13,8 @@ You can use this code in many different ways. Here's one way using blocknative.c
 2. Set the values of $PRIVATE_KEY, $ACCOUNT_ADDR, $PROVIDER, $MB_CONTRACT. Note the $ACCOUNT_ADDR and $PRIVATE_KEY
     correspond to the wallet that owns your bird. CAREFUL.
 3. Set the value of tokenId in expelMoonbirdWarfare.py to that of your bird's tokenid.
-4. Run on commandline where you have python and flask (figure out the other dependencies):
+4. Place the MoonBird contract's ABI in MB_API.json. You can find the ABI here: https://api.etherscan.io/api?module=contract&action=getabi&address=0x23581767a106ae21c074b2276d25e5c3e136a68b
+5. Run on commandline where you have python and flask (figure out the other dependencies):
     FLASK_APP=expelMoonbirdWarfare.py pipenv run flask run
 4. Sign up for a free account on https://www.blocknative.com
 5. Setup a new subscription on blocknative with the MoonBirds contract 0x23581767a106ae21c074b2276d25e5c3e136a68b.
