@@ -22,7 +22,7 @@ from time import sleep
 #the MoonBirds contract allows admins with the EXPULSION_ROLE to expel your nested moonbird in cases where you have nested
 #it and also put it up for sale
 #problem is, the expel mechanism doesn't have a timeout and backoff period, like for example your mobile phone does
-#when you incorrectly input the wrong passcode
+#when you incorrectly input the wrong passcode more than once
 
 
 #this app will prepetually re-nest your expelled bird asap
