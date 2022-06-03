@@ -1,5 +1,5 @@
 # expelMoonbirdWarfare
-Renest your expelled Moonbird. Play gas warfare with the MoonBird admin with the EXPULSION_ROLE.
+Watch the mempool and immediately renest your expelled Moonbird. Play gas warfare with the MoonBird admin with the EXPULSION_ROLE.
 
 The MoonBirds contract allows admins with the EXPULSION_ROLE to expel your nested moonbird in cases where you have nested
 it and also put it up for sale.
