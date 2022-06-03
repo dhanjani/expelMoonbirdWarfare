@@ -91,7 +91,7 @@ def receive_expel():
                 sys.exit("block number mismatch")
 
         # check to make sure the expel transaction is for the moonbirds contract and for our tokenId
-        if expel_txn["to"] == "0x015d4E6533125EE998a394bDD89d877e3debCe68":
+        if expel_txn["to"] == os.getenv("MB_CONTRACT"):
              if expel_txn[
                 "input"
             ] == "0x39154b9e00000000000000000000000000000000000000000000000000000000000" + format(
